@@ -1,0 +1,47 @@
+.kalkulator{
+    width:400px;
+    height:400px;
+    background-color: rgb(34,34,34);
+    text-align: center;
+    font-family: Verdana;
+    margin:auto;
+    position:relative;
+    visibility:visible;
+}
+.przycisk{
+    width:75px;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+    float:left;
+    display:block;
+    user-select:none;
+    margin : 15px 10px;
+}
+.przycisk:hover
+{
+    background-color: silver;
+}
+.przycisk_numer{
+    background-color: rgb(204,204,204);
+}
+.przycisk_operacja{
+     background-color: rgb(255,68,68);
+}
+.przycisk_rowna_sie{
+     background-color: rgb(255,0,0);
+}
+.przycisk_kasowanie{
+     background-color: rgb(221,0,0);
+}
+.ekran{
+    width:265px;
+    height:52px;
+    background-color: rgb(255,255,255);
+/*    margin-left: 10px;
+    margin-top: 10px;*/
+    margin: 10px;
+    text-align: right;
+    word-wrap:break-word;
+    float: left;
+}
